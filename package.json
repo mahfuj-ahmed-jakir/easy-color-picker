@@ -1,0 +1,22 @@
+{
+  "name": "easy-color-picker",
+  "version": "1.0.0",
+  "description": "This is a react color picker package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahfuj-ahmed-jakir/easy-color-picker.git"
+  },
+  "keywords": [
+    "easy-color-picker"
+  ],
+  "author": "Mahfuj Ahmed Jakir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahfuj-ahmed-jakir/easy-color-picker/issues"
+  },
+  "homepage": "https://github.com/mahfuj-ahmed-jakir/easy-color-picker#readme"
+}

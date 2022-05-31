@@ -1,1 +1,1 @@
-# color-picker
+# easy-color-picker

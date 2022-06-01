@@ -4,7 +4,9 @@ This is react color picker for easy development
 
 # Installation
 
-`npm i easy-color-picker --save`
+```
+npm i easy-color-picker --save
+```
 
 # How to use this?
 

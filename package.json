@@ -1,9 +1,12 @@
 {
   "name": "easy-color-picker",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Simple and easy react color picker component",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source": "src/index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,12 +18,31 @@
     "react color picker",
     "color picker",
     "color picker component",
-    "multiple color picker"
+    "multiple color picker",
+    "colorpicker",
+    "reactcolorpicker",
+    "reactcolor",
+    "reactpicker"
   ],
   "author": "Mahfuj Ahmed Jakir",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mahfuj-ahmed-jakir/easy-color-picker/issues"
   },
-  "homepage": "https://github.com/mahfuj-ahmed-jakir/easy-color-picker#readme"
+  "homepage": "https://github.com/mahfuj-ahmed-jakir/easy-color-picker#readme",
+  "peerDependencies": {
+    "react": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "react": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  }
 }

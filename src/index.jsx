@@ -1,6 +1,8 @@
 import React from "react";
 
 const OnePicker = () => {
+  let colorList = ["Red", "Yellow", "Blue", "Black", "Orange", "Green", "White", "Purple", "Indigo", "Violet", "Gray", "Pink", "Gold", "Crimson", "Navy", "Teal", "YellowGreen", "Olive", "Magenta", "Maroon", "Orchid", "Chocolate", "DarkSlateGray", "Tomato"];
+
   return (
     <div
       style={{
@@ -19,24 +21,19 @@ const OnePicker = () => {
           gridRowGap: "4px",
         }}
       >
-        <div
-          style={{
-            background: "red",
-            height: "30px",
-            width: "30px",
-            borderRadius: "2px",
-            cursor: "pointer",
-          }}
-        ></div>
-        <div
-          style={{
-            background: "blue",
-            height: "30px",
-            width: "30px",
-            borderRadius: "2px",
-            cursor: "pointer",
-          }}
-        ></div>
+        {colorList.map((color, index) => (
+          <div
+            onClick={() => setColor(color)}
+            key={index}
+            style={{
+              background: color,
+              height: "30px",
+              width: "30px",
+              borderRadius: "2px",
+              cursor: "pointer",
+            }}
+          ></div>
+        ))}
       </div>
     </div>
   );

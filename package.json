@@ -1,6 +1,6 @@
 {
   "name": "easy-color-picker",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Simple and easy react color picker component",
   "main": "dist/index.js",
   "module": "dist/index.js",

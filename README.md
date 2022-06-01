@@ -1,6 +1,6 @@
 # What is this?
 
-This is react color picker for easy development
+This is react color picker for easy development. This is now development mode. Please wait for stable version.
 
 # Installation
 
@@ -19,5 +19,5 @@ import { OnePicker } from "easy-color-picker"
 # Options
 
 ```
-<OnePicker width="280" size="30" />
+<OnePicker />
 ```

@@ -47,12 +47,12 @@ let handleSelect = (color) => {
     <PopUp>
         <OnePicker onClick={(color) => handleSelect(color)} />
     </PopUp>
-    : ""
+    : ""}
 ```
 
 # Options
 
 ```
-<!-- If you want to customize -->
+// If you want to customize
 <OnePicker background="#f1f1f1" radius="50%" size="30px" width="280px" onClick={(color) => setColor(color)} />
 ```

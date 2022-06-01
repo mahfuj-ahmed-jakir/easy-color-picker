@@ -23,7 +23,6 @@ const OnePicker = () => {
       >
         {colorList.map((color, index) => (
           <div
-            onClick={() => setColor(color)}
             key={index}
             style={{
               background: color,

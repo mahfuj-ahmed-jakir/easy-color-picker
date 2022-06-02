@@ -1,6 +1,6 @@
 import React from "react";
 
-const MultiPicker = ({ items = ["Red", "Yellow", "Blue", "Black", "Orange", "Green", "White", "Purple", "Indigo", "Violet", "Gray", "Pink", "Gold", "Crimson", "Navy", "Teal", "YellowGreen", "Olive", "Magenta", "Maroon", "Orchid", "Chocolate", "DarkSlateGray", "Tomato"], background = "#f1f1f1", radius = "50%", size = "30px", width = "280px" }) => {
+const ColorPicker = ({ colors = ["Red", "Yellow", "Blue", "Black", "Orange", "Green", "White", "Purple", "Indigo", "Violet", "Gray", "Pink", "Gold", "Crimson", "Navy", "Teal", "YellowGreen", "Olive", "Magenta", "Maroon", "Orchid", "Chocolate", "DarkSlateGray", "Tomato"], background = "#f1f1f1", radius = "50%", size = "30px", width = "280px", onClick }) => {
   return (
     <div
       style={{
@@ -19,8 +19,9 @@ const MultiPicker = ({ items = ["Red", "Yellow", "Blue", "Black", "Orange", "Gre
           background: background,
         }}
       >
-        {items.map((color, index) => (
+        {colors.map((color, index) => (
           <div
+            onClick={() => onClick(color)}
             key={index}
             style={{
               margin: "2px",
@@ -37,4 +38,4 @@ const MultiPicker = ({ items = ["Red", "Yellow", "Blue", "Black", "Orange", "Gre
   );
 };
 
-export default MultiPicker;
+export default ColorPicker;

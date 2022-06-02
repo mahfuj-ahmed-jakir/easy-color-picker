@@ -1,5 +1,4 @@
-import OnePicker from "./components/OnePicker";
-import MultiPicker from "./components/MultiPicker";
+import ColorPicker from "./components/ColorPicker";
 import PopUp from "./components/PopUp";
 
-export { OnePicker, MultiPicker, PopUp };
+export { ColorPicker, PopUp };

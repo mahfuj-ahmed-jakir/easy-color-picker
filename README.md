@@ -20,12 +20,6 @@ npm i easy-color-picker --save
 
 ## Usage
 
-* Use this `let [color, setColor] = useState("");` and `onClick={(code) => setColor(code)}` for get single color/code.
-
-* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([code])}` for get single color/code with array.
-
-* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([...color, code])}` for get multiple color/code with array.
-
 ```
 import React, { useState } from "react";
 import { ColorPicker } from "easy-color-picker";
@@ -40,6 +34,12 @@ const Component = () => {
   );
 };
 ```
+
+* Use this `let [color, setColor] = useState("");` and `onClick={(code) => setColor(code)}` for get single color/code.
+
+* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([code])}` for get single color/code with array.
+
+* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([...color, code])}` for get multiple color/code with array.
 
 ## Customize
 
@@ -72,4 +72,4 @@ const Component = () => {
 };
 ```
 
-* Thanks for using our package
+* Thanks for using our package!

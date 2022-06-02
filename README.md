@@ -20,9 +20,11 @@ npm i easy-color-picker --save
 
 ## Usage
 
-* Use this `let [color, setColor] = useState("");` and `onClick={(code) => setColor(code)}` for single color get.
-* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([code])}` for single color get with array.
-* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([...color, code])}` for multiple color get with array.
+* Use this `let [color, setColor] = useState("");` and `onClick={(code) => setColor(code)}` for get single color/code.
+
+* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([code])}` for get single color/code with array.
+
+* Use this `let [color, setColor] = useState([]);` and `onClick={(code) => setColor([...color, code])}` for get multiple color/code with array.
 
 ```
 import React, { useState } from "react";

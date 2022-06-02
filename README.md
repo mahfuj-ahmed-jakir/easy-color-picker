@@ -1,18 +1,11 @@
 # [React Easy Color Picker](http://mahfuj.me/)
 
-[![Npm Version][npm-version-image]][npm-version-url]
-[![Build Status][travis-svg]][travis-url]
-[![License][license-image]][license-url]
-[![Downloads][downloads-image]][downloads-url]
-
 * **Different Pickers** - You can take one or many colors in your array
 * **Make Your Own** - You can add colors yourself and customize the design to your liking
 * It has been built for the convenience of development and design
 
 ## Design Demo
-
 ![Demo](https://gcdnb.pbrd.co/images/aePPPObvnWlB.png)
-
 [**Live Demo**](http://mafhuj.me/)
 
 ## What is this?
@@ -35,11 +28,9 @@ const Component = () => {
   let [color, setColor] = useState([]);
 
   return (
-    <>
-
-      <ColorPicker onClick={(color) => setColor(color)} />
-
-    </>
+    <React.Fragment>
+      <ColorPicker selectOne={(color) => setColor(color)} />
+    </React.Fragment>
   );
 };
 ```
@@ -57,16 +48,14 @@ const Component = () => {
 
   return (
     <React.Fragment>
-
       <ColorPicker
       colors={colors}
       background="#dddddd"
       size="20px"
       radius="2px"
       width="658px"
-      onClick={(color) => setColor(color)}
+      selectOne={(color) => setColor(color)}
       />
-
     </React.Fragment>
   );
 };

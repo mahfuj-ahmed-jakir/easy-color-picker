@@ -1,6 +1,6 @@
 {
   "name": "easy-color-picker",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Simple and easy react color picker component for easily development",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -25,7 +25,7 @@
     "reactpicker"
   ],
   "author": "Mahfuj Ahmed Jakir",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mahfuj-ahmed-jakir/easy-color-picker/issues"
   },

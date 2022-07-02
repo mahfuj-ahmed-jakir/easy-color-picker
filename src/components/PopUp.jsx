@@ -1,6 +1,6 @@
 import React from "react";
 
-const PopUp = (props) => {
+export const PopUp = (props) => {
   return (
     <div
       style={{
@@ -26,5 +26,3 @@ const PopUp = (props) => {
     </div>
   );
 };
-
-export default PopUp;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorPicker = ({ items = ["Red", "Yellow", "Blue", "Black", "Orange", "Green", "White", "Purple", "Indigo", "Violet", "Gray", "Pink", "Gold", "Crimson", "Navy", "Teal", "YellowGreen", "Olive", "Magenta", "Maroon", "Orchid", "Chocolate", "DarkSlateGray", "Tomato"], background = "#f1f1f1", radius = "50%", size = "30px", width = "280px", bgRadius = "2px", preview = [], onClick }) => {
+export const ColorPicker = ({ items = ["Red", "Yellow", "Blue", "Black", "Orange", "Green", "White", "Purple", "Indigo", "Violet", "Gray", "Pink", "Gold", "Crimson", "Navy", "Teal", "YellowGreen", "Olive", "Magenta", "Maroon", "Orchid", "Chocolate", "DarkSlateGray", "Tomato"], background = "#f1f1f1", radius = "50%", size = "30px", width = "280px", bgRadius = "2px", preview = [], onClick }) => {
   return (
     <>
       <div
@@ -71,5 +71,3 @@ const ColorPicker = ({ items = ["Red", "Yellow", "Blue", "Black", "Orange", "Gre
     </>
   );
 };
-
-export default ColorPicker;
